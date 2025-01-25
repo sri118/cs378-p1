@@ -1,0 +1,97 @@
+/* Logo styling */
+.logo {
+   max-width: 200px;
+   margin-bottom: 20px; /* Space between logo and slogans */
+}
+
+/* Decorative text */
+.decorative-text {
+   color: teal;
+   font-family: 'Dancing Script', cursive;
+   font-size: 1.5rem;
+   margin-bottom: 10px; /* Space between decorative text and subtitle */
+}
+
+/* Subtitle text styling */
+.subtitle-text {
+   color: #555;
+   font-family: 'Roboto', sans-serif;
+   font-size: 1.2rem;
+   margin-bottom: 30px; /* Space between subtitle and the first menu item */
+}
+
+/* Menu item container */
+.menu-item {
+   background-color: transparent; /* No background box */
+   display: flex; /* Flexbox for horizontal alignment */
+   align-items: center; /* Vertically align content */
+   padding: 10px 0; /* Space inside each menu item */
+   margin-bottom: 15px;
+}
+
+/* Menu image wrapper (ensures consistent square size) */
+.menu-img-wrapper {
+   width: 120px; /* Square width */
+   height: 120px; /* Square height (matches width) */
+   flex-shrink: 0; /* Prevent shrinking in flexbox layout */
+   overflow: hidden; /* Hide any overflow outside the square */
+   border-radius: 8px; /* Rounded corners for images */
+   margin-right: 15px; /* Space between image and text */
+}
+
+/* Menu image */
+.menu-img {
+   width: 100%; /* Fill the width of the square */
+   height: 100%; /* Fill the height of the square */
+   object-fit: cover; /* Maintain aspect ratio while cropping */
+}
+
+/* Menu text container */
+.menu-text {
+   flex-grow: 1; /* Fill the remaining space */
+}
+
+/* Menu title */
+.menu-title {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 1.15rem;
+   color: #333;
+   margin-bottom: 5px;
+}
+
+/* Menu description */
+.menu-desc {
+   font-family: 'Roboto', sans-serif;
+   font-size: 0.8rem;
+   color: #666;
+   margin-bottom: 8px;
+}
+
+/* Menu price */
+.menu-price {
+   font-family: 'Roboto Mono', monospace;
+   font-weight: bold;
+   font-size: 1rem;
+   color: teal;
+}
+
+/* Add button */
+.btn-primary {
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 0.85rem;
+   background-color: teal;
+   color: white;
+   border: none;
+   border-radius: 20px;
+   padding: 6px 12px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-primary:hover {
+   background-color: #005f5f;
+   transform: translateY(-2px);
+}
